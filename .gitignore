@@ -1,0 +1,7 @@
+*-backups/
+*~
+*.autosave
+/ventilation/#auto_saved_files#
+*.lck
+
+fp-info-cache
