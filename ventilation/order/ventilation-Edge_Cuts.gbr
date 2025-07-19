@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
+%TF.CreationDate,2025-07-19T18:14:50+02:00*%
+%TF.ProjectId,ventilation,76656e74-696c-4617-9469-6f6e2e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-07-19 18:14:50*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X157512500Y-74645000D02*
+X195512500Y-74645000D01*
+X195512500Y-101645000D01*
+X157512500Y-101645000D01*
+X157512500Y-74645000D01*
+M02*
