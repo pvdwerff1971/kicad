@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.1"
     },
-    "CreationDate": "2025-08-08T13:48:55+02:00"
+    "CreationDate": "2025-08-08T13:51:03+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "ventilation",
-      "GUID": "76656e74-696c-4617-9469-6f6e2e6b6963",
+      "Name": "remote",
+      "GUID": "72656d6f-7465-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 38.05,
-      "Y": 28.75
+      "X": 35.05,
+      "Y": 30.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ventilation-F_Cu.gbr",
+      "Path": "remote-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-B_Cu.gbr",
+      "Path": "remote-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-F_Paste.gbr",
+      "Path": "remote-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-B_Paste.gbr",
+      "Path": "remote-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-F_Silkscreen.gbr",
+      "Path": "remote-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-B_Silkscreen.gbr",
+      "Path": "remote-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ventilation-F_Mask.gbr",
+      "Path": "remote-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ventilation-B_Mask.gbr",
+      "Path": "remote-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ventilation-Edge_Cuts.gbr",
+      "Path": "remote-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
