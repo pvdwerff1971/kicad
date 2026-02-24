@@ -3272,6 +3272,294 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PVDW_custom:SHTC3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SHTC3"
+				(at -10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PVDW_custom:shtc3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Sensirion AG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.80mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DFN-4 Sensirion"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SHTC3/Sensirion/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SHTC3/Sensirion/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SHTC3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2780401&manufacturer=Sensirion AG&part_name=SHTC3&search_term=shtc3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SENSOR HUMI/TEMP I2C 2% SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Sensirion"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SHTC3_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional clock
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PVDW_custom:button_small"
 			(pin_names
 				(offset 1.016)
@@ -3917,6 +4205,12 @@
 		(uuid "16ba6f1a-30c5-4bdf-b2ae-d7c30d62bc2c")
 	)
 	(junction
+		(at 76.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2412f816-ff19-49c1-bea9-a30be6221da3")
+	)
+	(junction
 		(at 166.37 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4494,6 +4788,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432f661d-6de1-4361-9b7d-501443f50445")
+	)
+	(wire
+		(pts
 			(xy 163.83 135.89) (xy 171.45 135.89)
 		)
 		(stroke
@@ -4804,6 +5108,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 43.18) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c13027-6174-4a23-8a56-6a36a618d2f0")
+	)
+	(wire
+		(pts
 			(xy 49.53 99.06) (xy 52.07 99.06)
 		)
 		(stroke
@@ -4851,6 +5165,16 @@
 			(type default)
 		)
 		(uuid "9f3c3474-86b7-4a92-a35a-5bbae8345625")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc1d383-1564-4522-a998-b40b9ca580de")
 	)
 	(wire
 		(pts
@@ -4964,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 45.72) (xy 43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacf3c30-e5f1-487b-b505-dbf354e427ac")
+	)
+	(wire
+		(pts
 			(xy 27.94 86.36) (xy 17.78 86.36)
 		)
 		(stroke
@@ -5021,6 +5355,16 @@
 			(type default)
 		)
 		(uuid "c2cdbcbe-083b-4eb4-a3b1-f47941b24273")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c480f14b-9440-488a-bdd4-9317aa3343e1")
 	)
 	(wire
 		(pts
@@ -5121,6 +5465,16 @@
 			(type default)
 		)
 		(uuid "d3910420-d2ac-46b9-a1a0-3873f2b32b20")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39904cf-b792-4371-8d46-74e4791bb01e")
 	)
 	(wire
 		(pts
@@ -5452,6 +5806,16 @@
 		)
 		(uuid "5799177c-64c2-4ad7-b252-587201279eca")
 	)
+	(label "SCL"
+		(at 40.64 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f24ccd1-81e6-4653-afe2-62b059d1e784")
+	)
 	(label "RF_P"
 		(at 215.9 48.26 0)
 		(effects
@@ -5621,6 +5985,16 @@
 			(justify left bottom)
 		)
 		(uuid "e58f98f1-3166-4677-b037-7a15b8e5b0a6")
+	)
+	(label "SDA"
+		(at 40.64 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e71f6bdf-6c20-4d93-beb6-6264d2d8aa3d")
 	)
 	(label "SCLK"
 		(at 134.62 67.31 0)
@@ -6071,6 +6445,72 @@
 			(project "Sensor"
 				(path "/92686601-816f-4250-b345-e5cb801c51a6"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c8053dd-3007-4d72-b05b-6e9d8c44d46f")
+		(property "Reference" "#PWR056"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a671e790-7fdb-41ce-b466-3bd485b2b0ae")
+		)
+		(instances
+			(project "Sensor"
+				(path "/92686601-816f-4250-b345-e5cb801c51a6"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6891,6 +7331,214 @@
 		)
 	)
 	(symbol
+		(lib_id "PVDW_custom:SHTC3")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3326a906-5a19-488a-aec5-1f357b4ef82f")
+		(property "Reference" "U51"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHTC3"
+			(at 58.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PVDW_custom:shtc3"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Sensirion AG"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.80mm"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DFN-4 Sensirion"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SHTC3/Sensirion/view-part/?ref=eda"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SHTC3/Sensirion/view-part/?ref=snap"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SHTC3"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2780401&manufacturer=Sensirion AG&part_name=SHTC3&search_term=shtc3"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SENSOR HUMI/TEMP I2C 2% SMD"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sensirion"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "34b1236b-14db-442e-bc24-e479c1128cb5")
+		)
+		(pin "3"
+			(uuid "46ac814d-1c18-4b5b-b23b-eb4e1c1552c7")
+		)
+		(pin "5"
+			(uuid "577c8232-aaac-4fdb-9265-25b0ba231f81")
+		)
+		(pin "1"
+			(uuid "4156ec98-dbb4-4f86-a396-17065898a531")
+		)
+		(pin "2"
+			(uuid "2fdb8913-6606-474e-80d1-e664d5718963")
+		)
+		(instances
+			(project ""
+				(path "/92686601-816f-4250-b345-e5cb801c51a6"
+					(reference "U51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 144.78 179.07 0)
 		(unit 1)
@@ -6916,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 144.78 179.07 0)
 			(effects
 				(font
@@ -8782,6 +9430,72 @@
 			(project "Sensor"
 				(path "/92686601-816f-4250-b345-e5cb801c51a6"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94537ab0-b941-4a9d-a933-5eec43b2a903")
+		(property "Reference" "#PWR055"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d582c8d-f3a8-4edc-944a-48de8acdae66")
+		)
+		(instances
+			(project "Sensor"
+				(path "/92686601-816f-4250-b345-e5cb801c51a6"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
