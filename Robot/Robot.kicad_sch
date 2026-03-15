@@ -3875,7 +3875,7 @@
 				(pin power_in line
 					(at -8.89 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3893,7 +3893,7 @@
 				(pin power_in line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7816,7 +7816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 91.44 180)
+		(at 186.69 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7824,7 +7824,7 @@
 		(dnp no)
 		(uuid "187b8828-bb5c-43bb-965b-99c27f3cfc95")
 		(property "Reference" "#PWR016"
-			(at 187.96 85.09 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 86.36 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 91.44 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +7850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 91.44 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 91.44 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10910,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 186.69 93.98 180)
+		(at 187.96 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10918,7 +10918,7 @@
 		(dnp no)
 		(uuid "ac891152-94a3-4310-aae4-a29768d7c0c3")
 		(property "Reference" "#PWR015"
-			(at 186.69 90.17 0)
+			(at 187.96 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10927,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 188.976 98.044 0)
+			(at 185.674 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,7 +10936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 93.98 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +10945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 93.98 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 186.69 93.98 0)
+			(at 187.96 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
