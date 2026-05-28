@@ -615,6 +615,10 @@
       {
         "netclass": "HIGH_POWER",
         "pattern": "/S[1,2]_M[1,2][A,B]"
+      },
+      {
+        "netclass": "HIGH_POWER",
+        "pattern": "VDC"
       }
     ]
   },
@@ -758,7 +762,7 @@
         "uuid": "1cd93e02-a9ab-4d45-b65e-b2e72610ab46"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2,J4,#PWR22-25",
     "variants": []
   },
   "sheets": [
