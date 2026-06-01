@@ -577,7 +577,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.8,
         "tuning_profile": ""
       },
       {
@@ -586,7 +586,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "tuning_profile": ""
       }
     ],
@@ -605,15 +605,11 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "HIGH_POWER",
-        "pattern": "+24V"
-      },
-      {
-        "netclass": "HIGH_POWER",
+        "netclass": "POWER",
         "pattern": "/OUT*"
       },
       {
-        "netclass": "HIGH_POWER",
+        "netclass": "POWER",
         "pattern": "/S[1,2]_M[1,2][A,B]"
       },
       {
@@ -762,7 +758,7 @@
         "uuid": "1cd93e02-a9ab-4d45-b65e-b2e72610ab46"
       }
     ],
-    "used_designators": "J1-2,J4,#PWR22-25",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
