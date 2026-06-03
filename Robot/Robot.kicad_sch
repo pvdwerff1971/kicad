@@ -4541,6 +4541,12 @@
 		(uuid "d18473bd-a06a-4da9-a021-6d82de9909ae")
 	)
 	(junction
+		(at 189.23 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7f33db-ccc6-45be-9edc-bab92c43f90e")
+	)
+	(junction
 		(at 34.29 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,16 +4742,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 123.19) (xy 208.28 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f108e42-8e39-4b06-bbe4-f014ca173117")
-	)
-	(wire
-		(pts
 			(xy 35.56 154.94) (xy 29.21 154.94)
 		)
 		(stroke
@@ -4866,6 +4862,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 120.65) (xy 193.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39114be0-9eb2-479c-b8d7-3f0863b2396a")
+	)
+	(wire
+		(pts
 			(xy 35.56 119.38) (xy 41.91 119.38)
 		)
 		(stroke
@@ -4906,16 +4912,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 120.65) (xy 208.28 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50564493-5b10-41b1-ac90-1f41ad17ad41")
-	)
-	(wire
-		(pts
 			(xy 34.29 45.72) (xy 34.29 48.26)
 		)
 		(stroke
@@ -4923,6 +4919,16 @@
 			(type default)
 		)
 		(uuid "5189e4fb-8c2c-4a4f-9c1a-9e4c21182242")
+	)
+	(wire
+		(pts
+			(xy 189.23 116.84) (xy 189.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525d3dba-4510-421a-9327-f3099c3fa19c")
 	)
 	(wire
 		(pts
@@ -5216,6 +5222,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 123.19) (xy 208.28 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aa615c-11e1-4b0c-a5bc-2fe4d0b7c138")
+	)
+	(wire
+		(pts
 			(xy 179.07 77.47) (xy 182.88 77.47)
 		)
 		(stroke
@@ -5283,6 +5299,16 @@
 			(type default)
 		)
 		(uuid "afaec9b4-af2c-4258-b99b-cfb65bfbfc08")
+	)
+	(wire
+		(pts
+			(xy 195.58 120.65) (xy 208.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff30236-9164-4b5e-b47d-15be92ddd941")
 	)
 	(wire
 		(pts
@@ -5773,6 +5799,16 @@
 			(justify right bottom)
 		)
 		(uuid "4feec209-4175-4075-9194-a78613bcbad7")
+	)
+	(label "VBAT"
+		(at 189.23 116.84 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "519f48ce-d11e-4315-b72b-83040efb9d4b")
 	)
 	(label "IMU_SCL"
 		(at 35.56 104.14 180)
@@ -7733,7 +7769,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 123.19 0)
+		(at 184.15 123.19 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7744,7 +7780,7 @@
 		(dnp no)
 		(uuid "53da424f-9cee-4a92-9486-7e1d66278277")
 		(property "Reference" "J1"
-			(at 196.215 128.27 0)
+			(at 184.785 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7754,7 +7790,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 196.215 125.73 0)
+			(at 184.785 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7764,7 +7800,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 195.58 123.19 0)
+			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 123.19 0)
+			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7786,7 +7822,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 123.19 0)
+			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,6 +9992,89 @@
 			(project "Robot"
 				(path "/1cd93e02-a9ab-4d45-b65e-b2e72610ab46"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 193.04 115.57 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55cbf40-4bed-487b-8b8f-45200b736176")
+		(property "Reference" "J6"
+			(at 196.85 114.9349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 196.85 117.4749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b702a74-c158-4960-928d-1abceb391f9c")
+		)
+		(pin "1"
+			(uuid "3a1c2468-cc72-4f98-811f-9f6c9985f7c8")
+		)
+		(instances
+			(project "Robot"
+				(path "/1cd93e02-a9ab-4d45-b65e-b2e72610ab46"
+					(reference "J6")
 					(unit 1)
 				)
 			)

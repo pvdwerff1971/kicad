@@ -615,6 +615,10 @@
       {
         "netclass": "HIGH_POWER",
         "pattern": "VDC"
+      },
+      {
+        "netclass": "HIGH_POWER",
+        "pattern": "VBAT"
       }
     ]
   },
@@ -758,7 +762,7 @@
         "uuid": "1cd93e02-a9ab-4d45-b65e-b2e72610ab46"
       }
     ],
-    "used_designators": "#PWR15,#PWR24,CON1,J5",
+    "used_designators": "J6",
     "variants": []
   },
   "sheets": [
